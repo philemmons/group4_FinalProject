@@ -27,5 +27,6 @@ a {
 }
 
 a:hover {
-    color: #676767;
+    color: #00f;
+    text-decoration: underline;
 }
