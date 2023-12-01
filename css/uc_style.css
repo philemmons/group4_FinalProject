@@ -1,9 +1,7 @@
 body {
-    text-align: center;
-    padding: 150px;
     background-image: url('../img/seychelles_gettyimage.png');
+    background-size: cover;
     font: 20px Helvetica, sans-serif;
-    color: #333;
 }
 
 h1 {
@@ -15,9 +13,11 @@ h1 {
     text-align: left;
     width: 650px;
     margin: 0 auto;
-    color: beige;
+    color: #000;
     border: solid 2px #fff;
-
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 a {
@@ -28,9 +28,4 @@ a {
 a:hover {
     color: #333;
     text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
