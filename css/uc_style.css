@@ -11,11 +11,11 @@ h1 {
 #article {
     display: block;
     width: 65%;
-    margin: auto;
-    color: #000;
-    border: inset 2px #fff;
+    margin: 25% auto;
+    color: #fff;
+    border: solid 2px #fff;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.3);
     text-align: left;
 }
 
