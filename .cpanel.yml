@@ -8,3 +8,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/vjwszppa/group4_FinalProject/
     - /bin/cp -R * $DEPLOYPATH
+    
