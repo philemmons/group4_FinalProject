@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/seychelles_gettyimage.png');
+    background: url('../img/seychelles_gettyimage.png');
     background-size: cover;
     font: 20px Helvetica, sans-serif;
 }
