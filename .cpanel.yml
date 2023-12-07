@@ -6,5 +6,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vjwszppa/group4_FinalProject/
+    - export DEPLOYPATH=/home/vjwszppa/group4\U+005FFinalProject/
     - /bin/cp -R * $DEPLOYPATH
