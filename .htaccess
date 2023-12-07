@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^movie\-insights\.philemmons\.dev$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.movie\-insights\.philemmons\.dev$
+RewriteRule ^/?$ "https\:\/\/movie\-insights\.philemmons\.dev\/underConstruction\.php" [R=302,L]
+
