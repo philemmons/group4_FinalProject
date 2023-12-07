@@ -77,15 +77,15 @@ class person
 class user extends person 
 	{
 		function __construct($userID, $userName, $password, $name, $email, $loginCount) {
-			parent::__construct($userID,$userName, $password, $name, $email, $loginCount)
-			parent:: this->setAdmin(0); 
+			parent::__construct($userID,$userName, $password, $name, $email, $loginCount);
+			parent:: this->setAdmin(0);
 		}
 	}
 	
 class admin extends person 
 	{
 		function __construct($userID, $userName, $password, $name, $email, $loginCount) {
-			parent::__construct($userID, $userName, $password, $name, $email, $loginCount)
+			parent::__construct($userID, $userName, $password, $name, $email, $loginCount);
 			parent:: this->setAdmin(1); 
 		}
 	}
@@ -246,14 +246,14 @@ class myPrediction //build a hybrid builder pattern with actorOneID, actorTwoID,
 		public function getActorOneID() {
 			return $this->actorOneID;
 		}
-		protected function setActorOneID()($newActorOneID) {
+		protected function setActorOneID($newActorOneID) {
 		 	$this->actorOneID = $newActorOneID;
 		}
 		
 		public function getActorTwoID() {
 			return $this->actorTwoID;
 		}
-		protected function setActorTwoID()($newActorTwoID) {
+		protected function setActorTwoID($newActorTwoID) {
 		 	$this->actorTwoID = $newActorTwoID;
 		}
 		
@@ -336,5 +336,6 @@ class myPrediction //build a hybrid builder pattern with actorOneID, actorTwoID,
 		protected function setReplaceWord($newReplaceWord) {
 		 	$this->replaceWord = $newReplaceWord;
 		}
-		
+	
+	}
 ?>
